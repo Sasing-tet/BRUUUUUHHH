@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:hackathon/Screens/event_details_screen.dart';
 import 'package:hackathon/Screens/home_page.dart';
 import 'package:hackathon/Screens/organization_home.dart';
 //import 'package:google_fonts/google_fonts.dart';
@@ -14,7 +15,7 @@ void main() {
         //fontFamily: GoogleFonts.lexend().fontFamily,
       ),
       debugShowCheckedModeBanner: false,
-      home: const OrganizationHome(),
+      home: const EventDetails(),
     ),
   );
 }
